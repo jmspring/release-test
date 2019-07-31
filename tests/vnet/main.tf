@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "vnetrg" {
 }
 
 module "vnet" {
-  source = "github.com/jmspring/release-test/modules/vnet"
+  source = "github.com/jmspring/release-test/modules/vnet?ref=0.1.0"
   vnet_name = "${var.vnet_name}"
   resource_group_name = "${azurerm_resource_group.vnetrg.name}"
 }
