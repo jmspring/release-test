@@ -1,2 +1,5 @@
 07/31/2019 - 15:31
 * initial checkin
+
+08/01/2019 - 10:07
+* move to explicit branch remote references
