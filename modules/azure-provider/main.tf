@@ -8,5 +8,5 @@ provider "azuread" {
 
 # common modules
 module "common-provider" {
-  source = "github.com/jmspring/release-test?ref=master//modules/common-provider"
+  source = "github.com/jmspring/release-test?ref=0.1.4//modules/common-provider
 }

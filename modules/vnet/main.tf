@@ -1,5 +1,5 @@
 module "provider" {
-  source = "github.com/jmspring/release-test?ref=master//modules/azure-provider"
+  source = "github.com/jmspring/release-test?ref=0.1.4//modules/azure-provider
 }
 
 data "azurerm_resource_group" "vnet" {
