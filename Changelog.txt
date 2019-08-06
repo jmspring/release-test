@@ -3,3 +3,6 @@
 
 08/01/2019 - 10:07
 * move to explicit branch remote references
+
+08/06/2019 - 10:50
+* update azure provider
